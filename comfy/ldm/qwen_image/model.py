@@ -12,7 +12,6 @@ import comfy.ldm.common_dit
 import comfy.patcher_extension
 from comfy.ldm.flux.math import apply_rope1
 
-
 class GELU(nn.Module):
     def __init__(self, dim_in: int, dim_out: int, approximate: str = "none", bias: bool = True, dtype=None, device=None, operations=None):
         super().__init__()
